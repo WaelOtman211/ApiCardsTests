@@ -12,6 +12,5 @@ class ConfigHandler:
     def get_base_url(self):
         return self.config.get('base_url')
 
-
-
-
+    def get_cards(self):
+        return self.config.get('cards')
